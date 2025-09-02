@@ -1,0 +1,50 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+logs/
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# SBT specific
+target/
+project/project/
+project/target/
+.bloop/
+.metals/
+.vscode/
+
+# Scala IDE specific
+.scala_dependencies
+.worksheet
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Spark
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Temporary files
+tmp/
+temp/
+
+# Environment specific
+.env
+.env.local
