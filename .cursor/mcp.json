@@ -2,9 +2,16 @@
   "mcpServers": {
     "ragie": {
       "command": "npx",
-      "args": ["-y", "@ragieai/mcp-server", "--partition", "YOUR_PARTITION_ID"],
+      "args": ["-y", "@ragieai/mcp-server"],
       "env": {
         "RAGIE_API_KEY": "tnt_3xmax7SGd8f_57TKlbzVxz2Arajpw9nyxpzHE1W0wMhHJTHp99DTIF9"
+      }
+    },
+    "github": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/",
+      "headers": {
+        "Authorization": "Bearer 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"
       }
     }
   }
