@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "ragie": {
+      "command": "npx",
+      "args": ["-y", "@ragieai/mcp-server", "--partition", "YOUR_PARTITION_ID"],
+      "env": {
+        "RAGIE_API_KEY": "tnt_3xmax7SGd8f_57TKlbzVxz2Arajpw9nyxpzHE1W0wMhHJTHp99DTIF9"
+      }
+    }
+  }
+}
